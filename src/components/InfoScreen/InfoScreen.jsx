@@ -47,11 +47,11 @@ class InfoScreen extends Component {
                         }}>Add To Favorites</Button>}
                 </div>
                 <div className="weatherDays">
-                    <div style={{width: '20%', whiteSpace: 'pre-line'}}>{this.props.infoScreen.weatherDay1.split('-')[0]+ '\n\n' + this.props.infoScreen.weatherDay1.split('-')[1] + '\n' + this.props.infoScreen.weatherDay1.split('-')[2]}</div>
-                    <div style={{width: '20%', whiteSpace: 'pre-line'}}>{this.props.infoScreen.weatherDay2.split('-')[0]+ '\n\n' + this.props.infoScreen.weatherDay2.split('-')[1] + '\n' + this.props.infoScreen.weatherDay2.split('-')[2]}</div>
-                    <div style={{width: '20%', whiteSpace: 'pre-line'}}>{this.props.infoScreen.weatherDay3.split('-')[0]+ '\n\n' + this.props.infoScreen.weatherDay3.split('-')[1] + '\n' + this.props.infoScreen.weatherDay3.split('-')[2]}</div>
-                    <div style={{width: '20%', whiteSpace: 'pre-line'}}>{this.props.infoScreen.weatherDay4.split('-')[0]+ '\n\n' + this.props.infoScreen.weatherDay4.split('-')[1] + '\n' + this.props.infoScreen.weatherDay4.split('-')[2]}</div>
-                    <div style={{width: '20%', whiteSpace: 'pre-line'}}>{this.props.infoScreen.weatherDay5.split('-')[0]+ '\n\n' + this.props.infoScreen.weatherDay5.split('-')[1] + '\n' + this.props.infoScreen.weatherDay5.split('-')[2]}</div>
+                    <div style={{width: '20%', whiteSpace: 'pre-line'}}>{this.props.infoScreen.weatherDay1.split('-')[0]+ '\n\n' + this.props.infoScreen.weatherDay1.split('-')[1] + ' °\n' + this.props.infoScreen.weatherDay1.split('-')[2]+ ' °'}</div>
+                    <div style={{width: '20%', whiteSpace: 'pre-line'}}>{this.props.infoScreen.weatherDay2.split('-')[0]+ '\n\n' + this.props.infoScreen.weatherDay2.split('-')[1] + ' °\n' + this.props.infoScreen.weatherDay2.split('-')[2]+ ' °'}</div>
+                    <div style={{width: '20%', whiteSpace: 'pre-line'}}>{this.props.infoScreen.weatherDay3.split('-')[0]+ '\n\n' + this.props.infoScreen.weatherDay3.split('-')[1] + ' °\n' + this.props.infoScreen.weatherDay3.split('-')[2]+ ' °'}</div>
+                    <div style={{width: '20%', whiteSpace: 'pre-line'}}>{this.props.infoScreen.weatherDay4.split('-')[0]+ '\n\n' + this.props.infoScreen.weatherDay4.split('-')[1] + ' °\n' + this.props.infoScreen.weatherDay4.split('-')[2]+ ' °'}</div>
+                    <div style={{width: '20%', whiteSpace: 'pre-line'}}>{this.props.infoScreen.weatherDay5.split('-')[0]+ '\n\n' + this.props.infoScreen.weatherDay5.split('-')[1] + ' °\n' + this.props.infoScreen.weatherDay5.split('-')[2]+ ' °'}</div>
                 </div>
             </div>
         )
