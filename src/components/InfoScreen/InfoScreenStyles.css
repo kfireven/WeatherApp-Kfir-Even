@@ -1,0 +1,32 @@
+.infoScreen {
+    color: burlywood;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5% 5%;
+    box-sizing: border-box;
+}
+
+.weatherDays {
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 33.333%;
+    margin-top: 3%;
+}
+
+.infoscreenFirstRaw {
+    align-items: center;
+    margin-top: 3%;
+    height: 33.333%;
+    width: 100%;
+    display: flex;
+}
+
+.infoScreenFavBtn {
+    background-color:#4C4236;
+    color:white;
+    width: 33.333%;
+}
