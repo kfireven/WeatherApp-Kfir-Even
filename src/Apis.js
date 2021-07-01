@@ -1,7 +1,7 @@
 const accuweatherAPIkey = 'kCkqeNIqZtd15XlMY8kZM9AVAUMRVCuZ';
 
 export function cityAutoCompleteAPI (q) {
-  return fetch('http://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=' + accuweatherAPIkey + '&q=' + q)
+  return fetch('https://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=' + accuweatherAPIkey + '&q=' + q)
     .then((response) => { 
         return response.json().then((data) => {
             return data;
@@ -43,7 +43,7 @@ export function cityAutoCompleteAPI (q) {
 }
 
 export function cityWeatherAPI (locKey) {
-    return fetch('http://dataservice.accuweather.com/currentconditions/v1/' + locKey + '?apikey=' + accuweatherAPIkey)
+    return fetch('https://dataservice.accuweather.com/currentconditions/v1/' + locKey + '?apikey=' + accuweatherAPIkey)
     .then((response) => { 
         return response.json().then((data) => {
             return data;
@@ -78,7 +78,7 @@ export function cityWeatherAPI (locKey) {
 }
 
 export function fiveDayCityWeatherAPI (locKey) {
-    return fetch('http://dataservice.accuweather.com/forecasts/v1/daily/5day/' + locKey + '?apikey=' + accuweatherAPIkey +'&metric=true')
+    return fetch('https://dataservice.accuweather.com/forecasts/v1/daily/5day/' + locKey + '?apikey=' + accuweatherAPIkey +'&metric=true')
     .then((response) => { 
         return response.json().then((data) => {
             return data;

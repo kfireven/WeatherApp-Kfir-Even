@@ -14,6 +14,7 @@ export const mainStyles = StyleSheet.create({
         left: '15%',
         width: '85%',
         height: '87%',
+        borderTopLeftRadius: '25px'
     },
     TextStyle: {
         fontSize: 16,
