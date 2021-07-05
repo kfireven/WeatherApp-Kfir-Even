@@ -1,8 +1,8 @@
 import { createStore, applyMiddleware, combineReducers } from "redux";
 import thunk from "redux-thunk";
 
-import { infoScreen } from "./components/InfoScreen/InfoScreenReducers";
-import { favoritesScreen } from './components/FavoritesScreen/FavoritesScreenReducers';
+import { infoScreen } from "./components/InfoScreen/infoScreenReducers";
+import { favoritesScreen } from './components/FavoritesScreen/favoritesScreenReducers';
 
 const reducers = combineReducers({
     infoScreen,

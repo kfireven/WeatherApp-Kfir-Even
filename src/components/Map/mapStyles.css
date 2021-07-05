@@ -8,7 +8,14 @@
 .mapPlaceholderImg {
     width: 100%;
     height: 100%;
-    background-image:url('https://ane4bf-datap1.s3-eu-west-1.amazonaws.com/wmocms/s3fs-public/ckeditor/files/W020170228643849857868.jpg?1sP39dGYftOles138YmsSSJraKAacnqZ');
     background-repeat: no-repeat;
     background-size: 100% 100%;
+}
+
+.mapSatImage {
+    background-image:url('../../../assets/img/satImage.jpg');
+}
+
+.mapRadImage {
+    background-image:url('../../../assets/img/radarImage.jpg');
 }

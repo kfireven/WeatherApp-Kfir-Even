@@ -7,6 +7,9 @@ export const mainStyles = StyleSheet.create({
         width: '100%',
         height: '100%',
     },
+    menuViewLightMode: {
+        backgroundColor: '#d0c7bd'
+    },
     mainView: {
         backgroundColor: 'black',
         position: 'relative',
@@ -15,6 +18,9 @@ export const mainStyles = StyleSheet.create({
         width: '85%',
         height: '87%',
         borderTopLeftRadius: '25px'
+    },
+    mainViewLightMode: {
+        backgroundColor: 'white'
     },
     TextStyle: {
         fontSize: 16,
@@ -34,6 +40,11 @@ export const mainStyles = StyleSheet.create({
         position: 'absolute',
         cursor: 'pointer'
     },
+    // menuRightButtons: {
+    //     // display: 'flex',
+    //     // flexDirection: 'column'
+    //     position: 'relative'
+    // },
     INFObutton: {
         marginTop: '20%'
     },

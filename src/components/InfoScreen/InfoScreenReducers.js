@@ -9,6 +9,7 @@ const initialState = {
     weatherDay3: '',
     weatherDay4: '',
     weatherDay5: '',
+    isSatView: true
 };
 
 export const infoScreen = (state = initialState, action) => {
@@ -25,6 +26,8 @@ export const infoScreen = (state = initialState, action) => {
                 weatherDay4: action.weatherDay4,
                 weatherDay5: action.weatherDay5,
              });
+        case 'IS_SET_SATELLITE_VIEW':
+            return Object.assign({}, state, { isSatView: action.condition });
         default:
             return state;
     }
