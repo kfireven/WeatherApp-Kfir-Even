@@ -35,11 +35,11 @@ export const Main = () => {
         dispatch(fillFavorites(JSON.parse(localStorage.getItem("favorites"))));
 
         var favs = favoritesScreen.favorites;
-        // if (favs == []) {
-        //     fillWeatherInfo({LocalizedName: 'Tel Aviv', Country: { LocalizedName:  'Israel'}, Key: '215854'});
-        // } else {
-        //     fillWeatherInfo({LocalizedName: favs[0].split(', ')[0], Country: { LocalizedName:  favs[0].split(', ')[1].split('-')[0]}, Key: favs[0].split('-')[1]});
-        // }
+        if (favs == []) {
+            fillWeatherInfo({LocalizedName: 'Tel Aviv', Country: { LocalizedName:  'Israel'}, Key: '215854'});
+        } else {
+            fillWeatherInfo({LocalizedName: favs[0].split(', ')[0], Country: { LocalizedName:  favs[0].split(', ')[1].split('-')[0]}, Key: favs[0].split('-')[1]});
+        }
     }, []);
 
     const fillWeatherInfo = (values) => {

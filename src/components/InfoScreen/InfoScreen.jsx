@@ -37,7 +37,7 @@ class InfoScreen extends Component {
     };
 
     convertToFahrenheit(value) {
-       return (value * (9/5)) + 32;
+       return ((value * (9/5)) + 32).toFixed(1);
     }
 
     render() {
